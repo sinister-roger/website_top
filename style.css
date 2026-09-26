@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, courier, sans-serif;
+}
+
+
+/* header first part  */
+
+
+.main-header {
+    background-color: #1F2937;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 10px;
+}
+
+.first-header, .second-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+
+/* header second-half part  */
+
+
+
+h1 {
+    color: #F9FAF8;
+    font-size: 24px ;
+    font-weight:900;
+}
+
+
+.second-header p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0;
+}
+
+.first-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 12px;
+}
+
+/* .second-header {
+    display: flex;
+    margin-top: 10px;
+} */
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+
+/* _____________________ main-header complete _______________ */
+
+
