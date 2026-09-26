@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: Roboto, courier, sans-serif;
+    font-family: roboto, courier, sans-serif;
 }
 
 
@@ -76,7 +76,7 @@ h1 {
 
 img {
     width: 300px;
-    height: auto;
+    height: 150px;
     margin-left: 20px;
 }
 
@@ -84,4 +84,45 @@ img {
 
 /* _____________________ main-header complete _______________ */
 
+.main {
+    /* background-color: rgb(255, 255, 255); */
+    padding: 10px 150px;
+    margin-bottom: 50px;
+}
+
+
+.main-headline {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+
+
+.main-body {
+    display: flex;
+    gap: 10px;
+}
+
+.container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    /* background-color: pink; */
+}
+
+
+.main-body p {
+    text-align: center;
+}
 
