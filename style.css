@@ -29,7 +29,7 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .first-header, .second-header {
@@ -51,7 +51,7 @@ ul {
 
 h1 {
     color: #F9FAF8;
-    font-size: 24px ;
+    font-size: 48px ;
     font-weight:900;
 }
 
@@ -82,7 +82,7 @@ img {
 
 
 
-/* _____________________ main-header complete _______________ */
+/* _____________________ header complete ______above_________ */
 
 .main {
     /* background-color: rgb(255, 255, 255); */
@@ -95,6 +95,7 @@ img {
     text-align: center;
     margin-bottom: 25px;
     margin-top: 30px;
+    font-size: 36px;
 }
 
 
@@ -126,3 +127,49 @@ img {
     text-align: center;
 }
 
+/* +++++++++++++++++++++++half-body complete+++++++++++++above+===== */
+
+
+.quote {
+    background-color:#e5e7eb ;
+    padding: 50px 175px;
+}
+
+.first-para {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.second-para {
+    text-align: right;
+    font-weight: bold;
+
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++second-half body compelte _=++++++++++above  */
+
+.cta {
+    background-color: #3882f6;
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cta P, .cta h2 {
+    color: #e5e7eb;
+}
+
+.cta button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 20px;
+    margin: 10px;
+
+}
