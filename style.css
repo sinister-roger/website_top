@@ -12,6 +12,12 @@ html {
 /* header first part  */
 
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-header {
     background-color: #1F2937;
     padding: 10px 100px;
@@ -67,6 +73,7 @@ h1 {
     color: white;
     border-radius: 8px;
     padding: 2px 12px;
+    border: 1px solid #1F2937;
 }
 
 /* .second-header {
@@ -84,6 +91,9 @@ img {
 
 /* _____________________ header complete ______above_________ */
 
+.original-main {
+    flex: 1;
+}
 .main {
     /* background-color: rgb(255, 255, 255); */
     padding: 10px 150px;
@@ -172,4 +182,11 @@ img {
     padding: 0px 20px;
     margin: 10px;
 
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
